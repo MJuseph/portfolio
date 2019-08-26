@@ -34,6 +34,10 @@ img.me:hover{
     margin: 20px;
     color: white;
 }
+.alert{
+  display: flex;
+  width: 20%;
+}
 img.l, img.k{
     margin: 10px;
     opacity: 0.5;
@@ -50,6 +54,10 @@ img.l:hover{
     width: 50%;
 }
 
+.modal{
+  display: flex;
+  justify-content: center;
+}
 .modal-body{
     background-color: brown;
     display: flex;

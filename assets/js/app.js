@@ -1,25 +1,21 @@
-// $(document).ready(function(){
-//     if (jQuery) {  
-//       // jQuery is loaded  
-//       alert("Yeah!");
-//     } else {
-//       // jQuery is not loaded
-//       alert("Doesn't Work");
-//     }
-//  });
+/* alert start */
+$("#projs").hide();
+$(document).ready(function(){
+  $("#webS").on("click", function(){
+    alert("Not ready yet");
+  });
+
+/* alert end */
 
 
 /* slide start */
-$("#projs").hide();
-$(document).ready(function(){
+
     $("#proj").on("click", function(){
         $(".container").fadeOut(1000);
         $("#projs").fadeIn(1000);
         $(".dot").hide();
-    })
-});
+    });
 
-$(document).ready(function(){
     $("#me").on("click", function(){
         $("#projs").fadeOut(1000);
         $(".container").fadeIn(1000);
