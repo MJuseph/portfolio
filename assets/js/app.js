@@ -15,6 +15,8 @@ $(document).ready(function(){
         $(".container").fadeOut(1000);
         $("#projs").fadeIn(1000);
         $(".dot").hide();
+        // alert("swipe the slide for the next project");
+
     });
 
     $("#me").on("click", function(){
